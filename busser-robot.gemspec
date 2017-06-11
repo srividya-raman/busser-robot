@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A Busser runner plugin for Robot}
   spec.summary       = spec.description
   spec.homepage      = 'https://github.com/srividya-raman/busser-robot.git'
-  spec.license       = 'Apache 2.0'
+  spec.license       = 'Apache-2.0'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = []
