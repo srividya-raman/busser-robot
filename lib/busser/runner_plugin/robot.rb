@@ -31,6 +31,8 @@ class Busser::RunnerPlugin::Robot < Busser::RunnerPlugin::Base
   end
 
   def test
-    run!("pybot -d robotlog #{suite_path("robot")}")
+
+    run!("pybot --pythonpath #{suite_path("robot")} -d robotlogs #{suite_path
+    ("robot")}")
   end
 end
